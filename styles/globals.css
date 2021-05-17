@@ -6,11 +6,21 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+li {
+  padding-left: 10rem;
+  position: relative;
+}
+
 a {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  display: flex;
+  list-style: none;
 }
